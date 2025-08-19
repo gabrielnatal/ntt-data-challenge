@@ -7,16 +7,16 @@ Este projeto implementa um sistema de gestão de pedidos e catálogo de produtos
 O sistema é composto por 4 serviços independentes:
 
 nttdata-microservices/
-├── eureka-server → Service Discovery (porta 8761)
+├── eureka-server → Service Discovery 
 
 
-├── api-gateway → API Gateway com validação de token (porta 8700)
+├── api-gateway → API Gateway com validação de token 
 
 
-├── product-service → CRUD de produtos com banco H2 (porta 8101)
+├── product-service → CRUD de produtos com banco H2 
 
 
-└── order-service → Criação de pedidos consumindo product-service (porta 8201)
+└── order-service → Criação de pedidos consumindo product-service 
 
 
 Fluxo:
